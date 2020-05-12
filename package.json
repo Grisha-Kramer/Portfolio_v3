@@ -1,0 +1,15 @@
+{
+    "name": "Portfolio_v3",
+    "version": "3.0",
+    "description": "Portfolio with Sass",
+    "main" : "index.js",
+    "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+},
+    "license": "MIT",
+    "dependencies": {
+            "gh-pages": "^1.2.0",
+            "node-sass": "^4.9.2"
+    }
+}
