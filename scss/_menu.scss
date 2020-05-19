@@ -47,7 +47,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.9;
     visibility: hidden;
     &.show {
         visibility: visible;
@@ -93,7 +93,10 @@
         .portrait {
             width: 250px;
             height: 250px;
-            background: url('../img/grisha.jpg');
+            // resize: both;
+            background: url('../img/lilgrisha.jpg');
+            background-position: center;
+            opacity: 1.0;
             border-radius: 50%;
             border: solid 3px $secondary-color;
         }
