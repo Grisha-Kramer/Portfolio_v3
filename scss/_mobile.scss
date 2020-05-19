@@ -39,6 +39,7 @@
         height: 75vh;
         transform: translate3d(-100%,0,0);
         font-size: 24px;
+        text-align: center;
     }
 
     .menu-branding {
@@ -46,9 +47,9 @@
         transform: translate3d(100%, 0, 0);
 
         .portrait {
-            background: url(../dist/img/Grisha.jpg);
-            width: 150px;
+            background: url(../img/lilgrisha.jpg);
             height: 150px;
+            width: 150px;
         }
         
     }
