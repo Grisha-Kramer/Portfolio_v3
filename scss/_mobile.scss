@@ -41,6 +41,7 @@
         font-size: 24px;
         text-align: center;
         align-items: center;
+        justify-content: center;
     }
 
     .menu-branding {
@@ -51,8 +52,9 @@
             background: url(../img/lilgrisha.jpg);
             height: 150px;
             width: 150px;
+            object-fit: fill;
         }
-        
+      
     }
     
     .about-info {
