@@ -4,6 +4,7 @@
   "description": "Portfolio with Sass",
   "main": "index.js",
   "scripts": {
+    "start": "node main.js",
   "sass": "node-sass -w scss/ -o dist/css/ --recursive"  },
   "repository": {
     "type": "git",
