@@ -17,7 +17,6 @@
   "bugs": {
     "url": "https://github.com/Grisha-Kramer/Portfolio_v3/issues"
   },
-  "homepage": "https://github.com/Grisha-Kramer/Portfolio_v3#readme",
   "dependencies": {
     "gh-pages": "^2.2.0",
     "node-sass": "^4.14.1"
