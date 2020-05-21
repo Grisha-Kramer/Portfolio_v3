@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Portfolio with Sass",
   "main": "index.js",
+  "homepage": "https://grisha-kramer.github.io/portfolio_v3",
   "scripts": {
-    "start": "node js/main.js",
-  "sass": "node-sass -w scss/ -o dist/css/ --recursive"  },
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Grisha-Kramer/Portfolio_v3.git"
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/Grisha-Kramer/Portfolio_v3#readme",
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.1"
   }
 }
