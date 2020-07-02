@@ -9,7 +9,7 @@
     "deploy": "gh-pages -d dist"
   },
   "scripts": {
-  "start": "node index.html"
+  "start": "node dist/index.html"
 },
   "repository": {
     "type": "git",
