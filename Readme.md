@@ -11,7 +11,7 @@ A responsive portfolio with SASS.
 The app is deployed at:  Test
 
 
-https://desolate-fortress-64967.herokuapp.com/
+https://grisha-kramer.github.io/Portfolio_v3/
 
 
 ## Description
