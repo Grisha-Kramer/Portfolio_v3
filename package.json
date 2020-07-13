@@ -5,7 +5,8 @@
   "main": "main.js",
   "homepage": "https://Grisha-Kramer.github.io/Portfolio_v3",
   "scripts": {
-    "start": "node /app/dist/js/main.js"
+    "start": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
